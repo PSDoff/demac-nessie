@@ -12,9 +12,13 @@
                 <type>skin_css</type>
                 <file>css/styles.css</file>
             </action>
+            <action method="removeItem">
+                <type>skin_css</type>
+                <file>css/enterprise.css</file>
+            </action>
             <action method="addItem">
                 <type>skin_css</type>
-                <file>css/comda.css</file>
+                <file>css/_PACKAGENAME_.css</file>
             </action>
             <action method="addItem">
                 <type>skin_js</type>
@@ -26,7 +30,7 @@
             </action>
             <action method="addItem">
                 <type>skin_js</type>
-                <name>js/comda.js</name>
+                <name>js/_PACKAGENAME_.js</name>
             </action>
         </reference>
     </default>
